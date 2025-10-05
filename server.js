@@ -22,7 +22,7 @@ const app = express();
 const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 5 * 1024 * 1024 } }); // 5MB
 
 app.use(helmet());
-app.use(cors({ origin: true }));
+app.use(cors({ origin:https://clearedge2-2woj.vercel.app/}));
 app.use(express.json({ limit: '2mb' }));
 app.use(express.urlencoded({ extended: true }));
 
